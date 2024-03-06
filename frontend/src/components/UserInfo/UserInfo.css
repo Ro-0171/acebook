@@ -1,0 +1,55 @@
+
+
+.card-image-background {
+  height: 10%;
+  width: 100%; /* Adjust as needed to fill the top half */
+  background-image: url(../profile_cover_photo/banner.jpg); /* Set the background image */
+  background-size: cover;
+  background-position: center;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+}
+
+.user-container h1 {
+  color: #fff; /* Set text color to white */
+  font-size: 24px; /* Adjust font size */
+  text-align: center; /* Center align text */
+  margin-top: 150px; /* Adjust margin top */
+}
+  /*--------------------------------------------------------------
+  # Header
+  --------------------------------------------------------------*/
+  #header {
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    /* transition: all ease-in-out 0.5s; */
+    transition: all 0.5s;
+    background: hsl(0, 0%, 100%);
+    overflow-y: auto;
+  }
+
+  .img-fluid.rounded-circle {
+    position: absolute;
+    top: 50%; /* Position the image in the middle of the top half */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px; /* Adjust the width of the circle */
+    height: 200px; /* Adjust the height of the circle */
+    border: 1px solid white; /* Optional: Add border */
+    border-radius: 50%; /* Make it a circle */
+  }
+  
+  
+  
+  #header .profile h1 {
+    font-size: 24px;
+    font-weight: 100;
+    color: #000003 !important;
+    text-emphasis-color: black;
+    -moz-text-align-last: center;
+    text-align-last: center;
+    font-family: "Poppins", sans-serif;
+  }
+  

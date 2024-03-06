@@ -1,0 +1,69 @@
+
+.left-column {
+  max-width: 400px; /* Adjust the max-width as needed */
+}
+
+.right-column {
+  max-width: 700px; /* Adjust the max-width as needed */
+}
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1; /* Send the background image to the back */
+}
+
+
+.profile-picture-container {
+  text-align: center;
+  margin-top: -50px; /* Adjust this value to move the profile picture up or down */
+}
+
+.profile-picture {
+  width: 100px; /* Adjust the width as necessary */
+  height: 100px; /* Adjust the height as necessary */
+  object-fit: cover; /* Maintain aspect ratio while covering the container */
+  border-radius: 50%; /* Make it round */
+}
+
+.container-fluid {
+  margin-top: 5px;
+  margin-bottom: 15px;
+  width: 100%;
+}
+.introduction-container {
+  background-color: #4267b2;
+  color: #010101;
+  font-weight: unset;
+}
+
+.sticky-card {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  background-color: #eff1f7; 
+  color: rgb(10, 0, 0);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: lighter;
+  transition: background-color 0.2s ease; /* Smooth transition for hover effect */
+}
+
+.main-wrapper {
+  flex-grow: 1; /* Allow the wrapper to fill the space */
+  width: 100%; /* Full width */
+  max-width: 1200px; /* Or whatever max width you desire */
+  margin: auto; /* Center the wrapper */
+}
+
+
+
+
+
+
+

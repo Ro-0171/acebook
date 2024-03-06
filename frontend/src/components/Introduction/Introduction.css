@@ -1,0 +1,22 @@
+.introduction-container {
+    text-align: center; 
+    background-color: white; 
+    border-bottom: 2px solid #e1e1e1; 
+    margin-bottom: 30px; 
+    margin-top: 30px; 
+  }
+  
+  .introduction-container h1 {
+    margin: 0; 
+    background-color: #7591cc;
+    padding: 10px 0; 
+    font-size: 2.5rem; 
+    color: white; 
+    font-weight: 300; 
+  }
+  
+  .introduction-container h2 {
+    margin-top: 10px; 
+    font-size: 2rem; 
+    color: #666; 
+  }
